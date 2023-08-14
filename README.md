@@ -10,11 +10,8 @@ Things included:
 Instructions to start
 
 - npm i
-- Remove ios and android folder
-- Rename in app.json
-- yarn ios
+- Rename name, slug, scheme in app.json
 - change firebaseConfig
 - setup sign in method in firebase
 - create .env and input keys
-
-make an example env
+- yarn ios
