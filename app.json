@@ -15,16 +15,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tidianform.withtamagui"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tidianform.withtamagui"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ebcf79a3-45fe-432f-8d39-dc31fc914e5f"
+      }
+    },
+    "scheme": "with-tamagui",
+    "plugins": [
+      "expo-apple-authentication"
+    ]
   }
 }
