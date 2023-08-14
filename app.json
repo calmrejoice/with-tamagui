@@ -11,19 +11,15 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.tidianform.withtamagui"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.tidianform.withtamagui"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -34,8 +30,6 @@
       }
     },
     "scheme": "with-tamagui",
-    "plugins": [
-      "expo-apple-authentication"
-    ]
+    "plugins": ["expo-apple-authentication"]
   }
 }

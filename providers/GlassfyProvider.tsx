@@ -25,7 +25,7 @@ const GlassfyContext = createContext({});
 
 // Change this to your Glassfy key
 // https://dashboard.glassfy.io/0/settings
-const GLASSFY_KEY = "60b709e23eb349d887d0aeca15b40a19";
+const GLASSFY_KEY = process.env.EXPO_PUBLIC_GLASSFY_API_KEY || "";
 
 // Provide Glassfy functions to our app
 export const GlassfyProvider = ({ children }: any) => {

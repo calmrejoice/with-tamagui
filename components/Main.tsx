@@ -12,10 +12,8 @@ import BottomTabNavigaton from "./BottomTabNavigaton";
 const Main = () => {
   const { isLoading, user, setUser } = useAuth();
   const [request, response, promptAsync] = useAuthRequest({
-    iosClientId:
-      "507961954303-ea0c1iqpvsf0k7cduqga984jnkc9p8dn.apps.googleusercontent.com",
-    androidClientId:
-      "507961954303-tn6p2ql3k8dmv6810bh26hf8n97e0hok.apps.googleusercontent.com",
+    iosClientId: process.env.EXPO_PUBLIC_IOS_CLIENT_ID || "",
+    androidClientId: process.env.EXPO_PUBLIC_ANDROID_CLIENT_ID || "",
   });
 
   useEffect(() => {
