@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { View } from "react-native";
 import { Button, Text, YStack } from "tamagui";
 import * as AppleAuthentication from "expo-apple-authentication";
 import { OAuthProvider, signInWithCredential } from "firebase/auth";
